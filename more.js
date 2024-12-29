@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", function () {
       console.error(error);
     }
   }
-// moreSeries()
+moreSeries()
   
   function formatISTDate(timestamp) {
     if (!timestamp) return "N/A";
@@ -238,7 +238,7 @@ document.addEventListener("DOMContentLoaded", function () {
       console.error(error);
     }
   }
-// moreSeriesMatch()
+moreSeriesMatch()
   function renderSeriesMatches() {
     subContainer.innerHTML = ""; 
     // logo.innerHTML=""; 
@@ -299,7 +299,7 @@ document.addEventListener("DOMContentLoaded", function () {
       console.error(error);
     }
   }
-  // newsSeriesSquads()
+  newsSeriesSquads()
 
 function renderMatchSquads() {
   // Clear the previous content in subContainer
@@ -346,7 +346,7 @@ async function newsSeriesStats() {
     console.error(error);
   }
 }
-// newsSeriesStats()
+newsSeriesStats()
 
 
 function renderMatchStats() {
@@ -381,7 +381,7 @@ async function newsSeriesNews() {
     console.error(error);
   }
 }
-// newsSeriesNews()
+newsSeriesNews()
 
 
 
@@ -434,7 +434,7 @@ async function newsSeriesVenue() {
     console.error(error);
   }
 }
-// newsSeriesVenue()
+newsSeriesVenue()
 function renderMatchVenue() {
   subContainer.innerHTML = "";
   let matchVenueData = JSON.parse(localStorage.getItem("seriesVenue"));
@@ -480,7 +480,7 @@ async function teams() {
     console.error(error);
   }
 }
-// teams()
+teams()
 
 
 function displayTeams() {
@@ -568,7 +568,7 @@ async function players() {
     console.error(error);
   }
 }
-// players()
+players()
 
 
 
@@ -707,7 +707,7 @@ async function playerInfo() {
     console.error(error);
   }
 }
-// playerInfo()
+playerInfo()
 
 function renderPlayerInfo() {
   subContainer.innerHTML = "";
@@ -790,7 +790,7 @@ async function playerBowlling() {
     console.error(error);
   }
 }
-// playerBowlling()
+playerBowlling()
 function bowlingAll() {
   subContainer.innerHTML = ""; 
   let res = JSON.parse(localStorage.getItem("playerBowl"));
@@ -818,7 +818,7 @@ function bowlingAll() {
   });
   subContainer.appendChild(bowlingTable);
 }
-// bowlingAll()
+bowlingAll()
 
 
 const urlPlayerBatting = 'https://cricbuzz-cricket.p.rapidapi.com/stats/v1/player/8733/batting';
@@ -840,7 +840,7 @@ async function playerBatting() {
     console.error(error);
   }
 }
-// playerBatting()
+playerBatting()
 
 function BattingInfo() {
   subContainer.innerHTML = ""; 
@@ -909,7 +909,7 @@ async function playerCareer() {
     console.error(error);
   }
 }
-// playerCareer()
+playerCareer()
 function careerAll() {
   subContainer.innerHTML = "";  
   let res = JSON.parse(localStorage.getItem("playerCareer"));
@@ -955,7 +955,7 @@ async function playerNews() {
     console.error(error);
   }
 }
-// playerNews()
+playerNews()
 
 function newsAll() {
     subContainer.innerHTML = ""; // Clear subCOntainer for fresh data display
@@ -1025,7 +1025,7 @@ async function schedule() {
     console.error(error);
   }
 }
-// schedule()
+schedule()
 
 
 function renderMatchSchedule() {
@@ -1126,7 +1126,7 @@ async function rankings() {
     console.error(error);
   }
 }
-// rankings()
+rankings()
 
 function menRank() {
   let navele = document.createElement("a");
@@ -1215,7 +1215,7 @@ async function records() {
     console.error(error);
   }
 }
-// records()
+records()
 
 function renderRecords(category = "Batting") {
   let navele = document.createElement("a");
