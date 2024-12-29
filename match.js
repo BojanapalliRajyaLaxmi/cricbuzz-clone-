@@ -122,7 +122,7 @@ async function matchHome() {
     console.error(error);
   }
 }
-// matchHome()
+matchHome()
   function formatISTDate(timestamp) {
     if (!timestamp) return "N/A";
     const date = new Date(parseInt(timestamp, 10));
@@ -264,7 +264,7 @@ async function macthTeam(params) {
     console.error(error);
   }
 }
-// macthTeam()
+macthTeam()
 
   function renderSquad() {
     subContainer.innerHTML = "";
@@ -324,7 +324,7 @@ async function matchInfo() {
     console.error(error);
   }
 }
-// matchInfo()
+matchInfo()
 
   function renderInfo() {
     subContainer.innerHTML = "";
@@ -375,7 +375,7 @@ async function matchInfo() {
       console.error(error);
     }
   }
-  // matchScore()
+  matchScore()
   function renderScard() {
     // Clear the content of subContainer
     subContainer.innerHTML = "";
