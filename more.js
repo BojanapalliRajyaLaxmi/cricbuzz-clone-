@@ -818,7 +818,7 @@ function bowlingAll() {
   });
   subContainer.appendChild(bowlingTable);
 }
-bowlingAll()
+// bowlingAll()
 
 
 const urlPlayerBatting = 'https://cricbuzz-cricket.p.rapidapi.com/stats/v1/player/8733/batting';
