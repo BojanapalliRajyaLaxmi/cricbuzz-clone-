@@ -120,7 +120,7 @@ async function newsSeries() {
     console.error(error);
   }
 }
-// newsSeries()
+newsSeries()
 
   function fetchAndRenderStories() {
     subContainer.innerHTML = ""; 
@@ -177,7 +177,7 @@ async function newsTopics() {
     console.error(error);
   }
 }
-// newsTopics()
+newsTopics()
 
 
 
@@ -227,7 +227,7 @@ async function newsInsideStory() {
     console.error(error);
   }
 }
-// newsInsideStory()
+newsInsideStory()
 
 
 
@@ -283,7 +283,7 @@ async function newscategory() {
   }
 }
 
-// newscategory()
+newscategory()
 
 
 function displayCategories() {
@@ -334,7 +334,7 @@ async function newsSpecials() {
     console.error(error);
   }
 }
-// newsSpecials(
+newsSpecials()
 
 
 
