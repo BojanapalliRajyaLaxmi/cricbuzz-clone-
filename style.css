@@ -47,7 +47,7 @@
     height: 10%; 
     background-color:#00ba8c; 
     display: block;
-    position: absolute; 
+    position: relative; 
     top: 0;
     left: 0;
     z-index: 10;
@@ -365,7 +365,7 @@
 
   #subContainer {
     flex: 1;
-    position: absolute;
+    position: relative;
     top: 105px;
     left: 50px;
     margin-left: 20px; 
@@ -424,7 +424,7 @@
   }
   #subContainer {
     flex: 1;
-    position: absolute;
+    position: relative;
     top: 110px;
     left: 50px;
     margin-left: 20px;
